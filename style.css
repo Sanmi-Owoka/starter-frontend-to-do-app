@@ -1,0 +1,83 @@
+.title {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 130%;
+    color: #ba3256;
+}
+
+.subtitle {
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    font-size: 100%;
+    color: black;
+}
+
+.input_text {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    border-width: 0 0 1px 0;
+    margin-top: 5%;
+    padding-top: 15px;
+    font-size: 22px;
+    outline: none;
+}
+
+.button {
+    display: block;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-family: 'Spartan', sans-serif;
+    padding: 10px;
+    background-color: #ba3256;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.task-list {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.button2 {
+    color: black;
+    font-family: 'Spartan', sans-serif;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: #ba3256;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.delete {
+    font-family: 'Spartan', sans-serif;
+    background-color: #ba3256;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Spartan', sans-serif;
+    list-style-type: none;
+    border: 1px solid #e6dcde;
+    margin-top: 10px;
+    padding: 0.5%;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 22px;
+}
+
+.items:hover {
+    transform: scaleX(1.05);
+}
